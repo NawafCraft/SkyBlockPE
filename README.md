@@ -1,7 +1,8 @@
 # SkyBlockPE
 SkyBlock ported to PocketMine, API 1.12.0 +
 
-Please note that this is still in development.
+# Please note that this is still in development.
+# OKAY NOW ITS INACTIVE AND WONT BE CONTINUED
 
 This plugin is an edit of [MyPlot](https://github.com/wiez/MyPlot) with a new generator and different commands.
 
