@@ -40,7 +40,7 @@ class Plot
      */
     public function addHelper($username) {
         if (!$this->isHelper($username)) {
-            $this->helpers[] = $username;
+            $this->helpers[$username] = $username;
             return true;
         }
         return false;
@@ -50,13 +50,8 @@ class Plot
      * @param string $username
      * @return bool
      */
-    public function removeHelper($username) {
-        $key = array_search($username, $this->helpers);
-        if ($key === false) {
-            return false;
-        }
-        unset($this->helpers[$key]);
-        return true;
+    public function removeHelper($username){
+        unset($this->helpers[$username]);
     }
 
     public function __toString() {
